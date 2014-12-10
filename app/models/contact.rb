@@ -1,5 +1,8 @@
 class Contact
   include ActiveModel::Model
+  require "rubygems"
+  require "google/api_client"
+  require "google_drive"
   attr_accessor :name, :string
   attr_accessor :email, :string
   attr_accessor :content, :string

@@ -34,3 +34,8 @@ gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
+
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
+end
